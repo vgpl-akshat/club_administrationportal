@@ -1,0 +1,18 @@
+:root{--main:#7A0C0C;--main-dark:#5F0808;--text:#1A4C8F;--text-on-main:#D6D6D6;--bg:#fff;--muted:#9a9a9a}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);margin:18px}
+nav{margin:0 0 18px;padding:12px 0}
+nav a{color:var(--text);text-decoration:none;margin-right:18px;font-size:1.05rem;font-weight:600;padding:8px 10px;border-radius:8px;transition:color .18s ease,transform .12s ease,background .18s ease}
+nav a:hover{color:var(--main);transform:scale(1.05)}
+h1,h2,h3{color:var(--main);margin-top:.2em}
+table{border-collapse:collapse;width:100%;background:var(--bg);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+th{background:var(--main);color:var(--text-on-main);padding:8px;text-align:left}
+td,th{border:1px solid rgba(255,255,255,.04);padding:8px}
+tr:hover td{background:rgba(255,255,255,.02)}
+button,input[type=submit]{background:var(--main);color:var(--text-on-main);border:0;padding:8px 12px;border-radius:5px;cursor:pointer;transition:background .12s ease,transform .06s ease}
+button:hover,input[type=submit]:hover{background:var(--main-dark);transform:translateY(-1px)}
+input[type=text],input[type=email],select{padding:6px 8px;border:1px solid rgba(0,0,0,.12);border-radius:4px;background:transparent;color:var(--text)}
+input:focus,select:focus{outline:none;border-color:var(--main);box-shadow:0 0 0 4px rgba(122,12,12,.09)}
+.small{font-size:.9rem;color:var(--muted)}
+a{color:var(--main)}
+a:hover{color:var(--main-dark);text-decoration:underline}
+.muted{color:var(--muted);font-size:.95rem}
